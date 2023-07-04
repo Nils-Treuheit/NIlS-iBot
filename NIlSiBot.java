@@ -179,7 +179,8 @@ public class NIlSiBot extends AbstractionLayerAI{
                 Math.abs(u2.getY() - u1.getY());
     }
     
-    // Strongly Based on LightDefense Behaivor as my Fallback Behavior in case:
+    // Strongly Based on LightDefense Behaivor (https://github.com/Farama-Foundation/MicroRTS/blob/master/src/ai/abstraction/LightDefense.java) 
+    // as my Fallback Behavior in case:
     // - encounter LightRush on wrong side of the field [bug with harvester]
     public PlayerAction defense(int player, GameState gs, UnitType type) 
     {
@@ -319,7 +320,8 @@ public class NIlSiBot extends AbstractionLayerAI{
         return translateActions(player, gs);
     }
     
-    // LightRush Behaivor copied and generalized for all kinds of troops. 
+    // LightRush Behaivor (https://github.com/Farama-Foundation/MicroRTS/blob/master/src/ai/abstraction/LightRush.java) 
+    // copied and generalized for all kinds of troops. 
     // This is used as my Fallback Behavior in case:
     // - fight against Ranged Units (continous fallback plan)
     // - all of my bases get destroyed (until base is rebuild)
