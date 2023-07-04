@@ -1,7 +1,7 @@
 # NIlS-iBot
-A fixed decision environment-based strategy to compete in the MicroRTS Game
+A fixed decision environment-based strategy to [compete](https://sites.google.com/site/micrortsaicompetition/introduction?authuser=0) in the MicroRTS Game
 
-Combines standard strategies from MicroRTS-Game:
+Combines standard strategies from [MicroRTS-Game](https://github.com/Farama-Foundation/MicroRTS):
  - MilitaryUnit-Rush
  - MilitaryUnit-Defense
  - Worker-Rush
